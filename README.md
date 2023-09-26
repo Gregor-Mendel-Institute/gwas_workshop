@@ -3,33 +3,11 @@
 # GWAS_workshop
 How to GWAS
 
-## Create an conda-environment to be able to...
 
 
-To make sure all required packages are installed, it's practical to create the conda environment locally
-and activate this environment (do this in each new bash window)
+## Before the start..
 
-```bash
-conda env create -f environment.yml
-conda activate limix
-```
-
-If this takes too long and/or doesn't work, then try:
-```bash
-./create_env.sh
-```
-
-## Start
-The jupyter notebooks can be used in an executable environment by clicking the Binder badge above.
-
-To use the notebooks locally, download the notebook(s) of choice and from that directory run
-
-```bash
-jupyter notebook
-```
-
-
-## Install conda
+### Install conda
 
 Check if conda is installed:
 
@@ -39,8 +17,45 @@ conda --version
 
 When conda is not installed locally, we advise installing [miniconda](https://docs.conda.io/projects/miniconda/en/latest/) or [anaconda](https://www.anaconda.com/distribution/) 
 
-
 Click [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment) for more information on conda environments.
 
+
+### Create a conda environment, aka "Magic Box," to keep projects separate
+
+
+To make sure all required packages are installed, it's practical to create the conda environment locally:
+```bash
+conda env create -f environment.yml
+```
+and activate this environment in a new bash window:
+
+```bash
+conda activate limix
+```
+
+If creating takes too long and/or doesn't work, try step-by-step script:
+```bash
+./create_env.sh
+```
+
+
+
+## Start
+
+To use the notebooks locally, download the notebook(s) of choice and from that directory run:
+
+```bash
+jupyter notebook
+```
+
+### Be sure, that both R and python kernels are properly installed
+
+To check this you need to click "New" at the left top side of the page and be sure that you can create two types of netebooks: 
+  - python
+  - R
+
+Create new notebooks of each type, in the opened window write `x = 0` and click "Run".
+
+If R kernel doesn't work, follow the [instruction](https://github.com/IRkernel/IRkernel).
 
 
