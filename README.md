@@ -60,7 +60,7 @@ Create new notebooks of each type, in the opened window write `x = 0` in the fir
 
 If R kernel doesn't work, 
 - uninstall it from the command line `jupyter kernelspec uninstall ir`
-- or follow the [instruction](https://github.com/IRkernel/IRkernel).
+- follow the [instruction](https://github.com/IRkernel/IRkernel).
 
 ## End
 
