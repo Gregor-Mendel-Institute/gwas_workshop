@@ -68,3 +68,10 @@ jupyter kernelspec uninstall ir
 - follow the [instruction](https://github.com/IRkernel/IRkernel).
 
 
+## End
+
+To leave the invoronment please run:
+
+```
+conda deactivate
+```
