@@ -7,7 +7,7 @@ There are two ways to work in the workshop:
   - run Jupyter Notebook locally (highly recommended) or 
   - use an executable environment by clicking the Binder badge above.
 
-For the first option , follow the instruction below:
+For the first option, follow the instruction below:
 
 ## Before the start..
 
@@ -19,8 +19,7 @@ Check if conda is installed:
 conda --version
 ```
 
-When conda is not installed locally, we advise installing [miniconda](https://docs.conda.io/projects/miniconda/en/latest/) or [anaconda](https://www.anaconda.com/distribution/) 
-
+When conda is not installed locally, we advise installing [miniconda](https://docs.conda.io/projects/miniconda/en/latest/) or [anaconda](https://www.anaconda.com/distribution/).  
 Click [here](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#sharing-an-environment) for more information on conda environments.
 
 
@@ -32,21 +31,20 @@ You can set up the environment for gwas-workshop by entering this in the command
 conda env create -f environment.yml
 ```
 
-and then activate the environment in a new bash window::
+and then activate the environment in a new bash window:
 ```bash
 conda activate gwas
 ```
 
 If creating takes too long and/or doesn't work, try step-by-step script:
 ```bash
-chmod +x create_env.sh
 ./create_env.sh
 ```
 
 
 ## Start
 
-To use the notebooks locally, download the notebook(s) of choice and from that directory run:
+To use the notebooks locally, run in the command line from the working directory:
 
 ```bash
 jupyter notebook
@@ -61,12 +59,8 @@ To check this you need to click "New" at the left top side of the jupiter-page a
 Create new notebooks of each type, in the opened window write `x = 0` in the first cell and click "Run".
 
 If R kernel doesn't work, 
-- uninstall it
-```bash
-jupyter kernelspec uninstall ir
-```
-- follow the [instruction](https://github.com/IRkernel/IRkernel).
-
+- uninstall it from the command line `jupyter kernelspec uninstall ir`
+- or follow the [instruction](https://github.com/IRkernel/IRkernel).
 
 ## End
 
