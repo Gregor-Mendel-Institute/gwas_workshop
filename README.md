@@ -4,8 +4,8 @@
 How to GWAS
 
 There are two ways to work in the workshop: 
-	-  run Jupyter Notebook locally (highly recommended) or 
-	-  use an executable environment by clicking the Binder badge above.
+  - run Jupyter Notebook locally (highly recommended) or 
+  - use an executable environment by clicking the Binder badge above.
 
 For the first option , follow the instruction below:
 
