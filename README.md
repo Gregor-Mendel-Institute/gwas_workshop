@@ -1,4 +1,4 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://github.com/Gregor-Mendel-Institute/gwas_workshop/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Gregor-Mendel-Institute/gwas_workshop/master)
 
 # GWAS workshop
 How to GWAS
